@@ -1,3 +1,4 @@
+AnimatedSprite2D
 AudioStreamPlayer
 AudioStreamPlayer2D
 TextureRect
@@ -5,6 +6,5 @@ Control
 Button
 VBoxContainer
 CollisionShape2D
-AnimatedSprite2D
 Sprite2D
 CharacterBody2D

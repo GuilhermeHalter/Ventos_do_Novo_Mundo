@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://x83xfboasmjj"]
+[gd_scene load_steps=5 format=3 uid="uid://x83xfboasmjj"]
 
 [ext_resource type="Script" uid="uid://c80t1tpjb1em1" path="res://scripts/main_menu.gd" id="1_eiy7p"]
 [ext_resource type="Texture2D" uid="uid://clayj6urhvta1" path="res://sprites/Titulo.png" id="2_h7a2f"]
+[ext_resource type="Texture2D" uid="uid://bae4x6eepqut6" path="res://sprites/Plano_Fundo.png" id="3_h7a2f"]
+[ext_resource type="AudioStream" uid="uid://ce2nmvoyx5510" path="res://sounds/pirate_ship_in_game.ogg" id="4_qoqlk"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -40,6 +42,23 @@ text = "Opções"
 [node name="BtnSair" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 text = "Sair"
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+z_index = -3
+z_as_relative = false
+layout_mode = 0
+offset_top = -120.0
+offset_right = 1156.0
+offset_bottom = 864.0
+mouse_filter = 2
+texture = ExtResource("3_h7a2f")
+expand_mode = 5
+stretch_mode = 5
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_qoqlk")
+volume_db = -15.639
+autoplay = true
 
 [connection signal="pressed" from="VBoxContainer/BtnJogar" to="." method="_on_btn_jogar_pressed"]
 [connection signal="pressed" from="VBoxContainer/BtnOpcoes" to="." method="_on_btn_opcoes_pressed"]

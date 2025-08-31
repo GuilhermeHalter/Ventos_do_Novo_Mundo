@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://c41i6a6upgakm"]
+[gd_scene load_steps=22 format=3 uid="uid://c41i6a6upgakm"]
 
 [ext_resource type="Texture2D" uid="uid://d2hy1ofqa5drs" path="res://assets/cutscenes/sprite_00.png" id="1_6lpk4"]
 [ext_resource type="Texture2D" uid="uid://bgf0eol1xi17f" path="res://assets/cutscenes/sprite_01.png" id="2_ijfoq"]
@@ -19,6 +19,7 @@
 [ext_resource type="Texture2D" uid="uid://dd7dnv68f2vx8" path="res://assets/cutscenes/sprite_16.png" id="17_43bx4"]
 [ext_resource type="Texture2D" uid="uid://bdyhj2w412bux" path="res://assets/cutscenes/sprite_17.png" id="18_wiays"]
 [ext_resource type="Texture2D" uid="uid://8jg7vy80utds" path="res://assets/cutscenes/sprite_18.png" id="19_2k0ex"]
+[ext_resource type="AudioStream" uid="uid://h2akv707hxcq" path="res://sounds/Barokko_Melody_1.ogg" id="20_ijfoq"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_g2ora"]
 animations = [{
@@ -92,3 +93,7 @@ position = Vector2(575.5, 323.5)
 scale = Vector2(0.749349, 0.633789)
 sprite_frames = SubResource("SpriteFrames_g2ora")
 animation = &"cutscene_intro"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("20_ijfoq")
+autoplay = true

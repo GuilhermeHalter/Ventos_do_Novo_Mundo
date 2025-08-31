@@ -1,3 +1,7 @@
+Control
+Button
+VBoxContainer
+TextureRect
 CollisionShape2D
 AnimatedSprite2D
 Sprite2D

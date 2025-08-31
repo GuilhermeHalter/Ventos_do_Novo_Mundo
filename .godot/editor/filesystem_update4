@@ -1,3 +1,5 @@
 res://Main.tscn
 res://scenes/Ship.tscn
 res://scripts/ship.gd
+res://MainMenu.tscn
+res://scripts/main_menu.gd

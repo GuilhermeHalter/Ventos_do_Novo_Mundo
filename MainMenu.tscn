@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=3 uid="uid://x83xfboasmjj"]
+
+[ext_resource type="Script" uid="uid://c80t1tpjb1em1" path="res://scripts/main_menu.gd" id="1_eiy7p"]
+[ext_resource type="Texture2D" uid="uid://clayj6urhvta1" path="res://sprites/Titulo.png" id="2_h7a2f"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_eiy7p")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 317.0
+offset_top = 8.0
+offset_right = 877.0
+offset_bottom = 341.0
+grow_horizontal = 2
+texture = ExtResource("2_h7a2f")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 574.0
+offset_top = 395.0
+offset_right = 640.0
+offset_bottom = 496.0
+alignment = 1
+
+[node name="BtnJogar" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Jogar"
+
+[node name="BtnOpcoes" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Opções"
+
+[node name="BtnSair" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Sair"
+
+[connection signal="pressed" from="VBoxContainer/BtnJogar" to="." method="_on_btn_jogar_pressed"]
+[connection signal="pressed" from="VBoxContainer/BtnOpcoes" to="." method="_on_btn_opcoes_pressed"]
+[connection signal="pressed" from="VBoxContainer/BtnSair" to="." method="_on_btn_sair_pressed"]

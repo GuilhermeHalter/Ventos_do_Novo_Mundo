@@ -1,8 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://b76bhg86mpqrw"]
+[gd_scene load_steps=3 format=3 uid="uid://b76bhg86mpqrw"]
 
 [ext_resource type="PackedScene" uid="uid://dfpk1h5cp4xct" path="res://scenes/Ship.tscn" id="1_glv2v"]
+[ext_resource type="PackedScene" uid="uid://bocb4htpv3vau" path="res://scenes/Continentes.tscn" id="2_uu6xs"]
 
 [node name="Main" type="Node2D"]
 
 [node name="Ship" parent="." instance=ExtResource("1_glv2v")]
 position = Vector2(645, 308)
+
+[node name="Continentes" parent="." instance=ExtResource("2_uu6xs")]

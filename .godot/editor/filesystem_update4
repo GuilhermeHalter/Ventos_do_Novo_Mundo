@@ -1,9 +1,6 @@
 res://Main.tscn
 res://scenes/Ship.tscn
-res://scripts/ship.gd
 res://MainMenu.tscn
-res://scripts/main_menu.gd
 res://scenes/Cutscene.tscn
-res://scripts/cutscene.gd
-res://scenes/Continentes.tscn
 res://scenes/Porto_Portugal.tscn
+res://scenes/Continentes.tscn

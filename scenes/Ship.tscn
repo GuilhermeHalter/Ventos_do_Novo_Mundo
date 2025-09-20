@@ -1,14 +1,14 @@
 [gd_scene load_steps=12 format=3 uid="uid://dfpk1h5cp4xct"]
 
 [ext_resource type="Script" uid="uid://bxci83pwovcei" path="res://scripts/ship.gd" id="1_bsm8o"]
-[ext_resource type="Texture2D" uid="uid://t0pwlffewbir" path="res://sprites/Barco_Baixo-removebg-preview.png" id="2_q74qb"]
-[ext_resource type="Texture2D" uid="uid://b5ogbakd1m2u" path="res://sprites/Barco_Diagonal_Baixo_Esquerda-removebg-preview.png" id="3_53n8c"]
-[ext_resource type="Texture2D" uid="uid://b8rmhwo613nnq" path="res://sprites/Barco_Diagonal_Baixo_Direita-removebg-preview.png" id="4_8cwls"]
-[ext_resource type="Texture2D" uid="uid://cxy7mv157p7e5" path="res://sprites/Barco_Esquerda-removebg-preview.png" id="5_bfg8t"]
-[ext_resource type="Texture2D" uid="uid://dqxsjxq8v5u1b" path="res://sprites/Barco_Direita-removebg-preview.png" id="6_gsl1t"]
-[ext_resource type="Texture2D" uid="uid://4ulj75dujcg2" path="res://sprites/Barco_Cima-removebg-preview.png" id="7_o5gjs"]
-[ext_resource type="Texture2D" uid="uid://dnq0ymi6fimcx" path="res://sprites/Barco_Diagonal_Cima_Esquerda-removebg-preview.png" id="8_ftay0"]
-[ext_resource type="Texture2D" uid="uid://180u1pdgrrn4" path="res://sprites/Barco_Diagonal_Cima_Direita-removebg-preview.png" id="9_kwgmj"]
+[ext_resource type="Texture2D" uid="uid://dj3o7hhgpb3ri" path="res://sprites/Barco_Baixo-removebg-preview.png" id="2_q74qb"]
+[ext_resource type="Texture2D" uid="uid://bdx64bv01mpj3" path="res://sprites/Barco_Diagonal_Baixo_Esquerda-removebg-preview.png" id="3_53n8c"]
+[ext_resource type="Texture2D" uid="uid://cw0y38v5r0esu" path="res://sprites/Barco_Diagonal_Baixo_Direita-removebg-preview.png" id="4_8cwls"]
+[ext_resource type="Texture2D" uid="uid://qhdtawju1f2n" path="res://sprites/Barco_Esquerda-removebg-preview.png" id="5_bfg8t"]
+[ext_resource type="Texture2D" uid="uid://b4yspdklmsdxf" path="res://sprites/Barco_Direita-removebg-preview.png" id="6_gsl1t"]
+[ext_resource type="Texture2D" uid="uid://kgvye5t16tnp" path="res://sprites/Barco_Cima-removebg-preview.png" id="7_o5gjs"]
+[ext_resource type="Texture2D" uid="uid://hucok6ipekop" path="res://sprites/Barco_Diagonal_Cima_Esquerda-removebg-preview.png" id="8_ftay0"]
+[ext_resource type="Texture2D" uid="uid://bj771ychkck2j" path="res://sprites/Barco_Diagonal_Cima_Direita-removebg-preview.png" id="9_kwgmj"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_6dbdw"]
 animations = [{

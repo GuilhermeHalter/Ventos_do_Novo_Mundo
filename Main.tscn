@@ -1,11 +1,83 @@
-[gd_scene load_steps=3 format=3 uid="uid://b76bhg86mpqrw"]
+[gd_scene load_steps=6 format=3 uid="uid://b76bhg86mpqrw"]
 
 [ext_resource type="PackedScene" uid="uid://dfpk1h5cp4xct" path="res://scenes/Ship.tscn" id="1_glv2v"]
+[ext_resource type="Script" uid="uid://d3064b1ew082g" path="res://main.gd" id="1_r0du0"]
 [ext_resource type="PackedScene" uid="uid://bocb4htpv3vau" path="res://scenes/Continentes.tscn" id="2_uu6xs"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uu6xs"]
+size = Vector2(16507, 67.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r0du0"]
+size = Vector2(8293, 70.75)
+
 [node name="Main" type="Node2D"]
+script = ExtResource("1_r0du0")
 
 [node name="Ship" parent="." instance=ExtResource("1_glv2v")]
 position = Vector2(645, 308)
 
 [node name="Continentes" parent="." instance=ExtResource("2_uu6xs")]
+position = Vector2(649, 1187)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(-354, -468)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(4000.5, -895)
+shape = SubResource("RectangleShape2D_uu6xs")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+position = Vector2(-4592.25, 2825)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_r0du0")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="."]
+position = Vector2(7, 19)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D3"]
+position = Vector2(11831.4, 2842.5)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_r0du0")
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="."]
+position = Vector2(-354, -468)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D4"]
+position = Vector2(4009, 7429)
+shape = SubResource("RectangleShape2D_uu6xs")
+
+[node name="PauseMenu" type="CanvasLayer" parent="."]
+visible = false
+
+[node name="Panel" type="Panel" parent="PauseMenu"]
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.998
+offset_right = 3.0
+offset_bottom = 0.295959
+
+[node name="ContinueButton" type="Button" parent="PauseMenu/Panel"]
+process_mode = 2
+layout_mode = 0
+offset_left = 528.0
+offset_top = 306.0
+offset_right = 614.0
+offset_bottom = 337.0
+text = "Continuar"
+
+[node name="ExitButton" type="Button" parent="PauseMenu/Panel"]
+process_mode = 2
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 550.0
+offset_top = 357.0
+offset_right = -567.0
+offset_bottom = -259.0
+text = "Sair"
+
+[connection signal="pressed" from="PauseMenu/Panel/ContinueButton" to="." method="_on_continue_button_pressed"]
+[connection signal="pressed" from="PauseMenu/Panel/ExitButton" to="." method="_on_exit_button_pressed"]

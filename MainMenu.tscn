@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://x83xfboasmjj"]
 
 [ext_resource type="Script" uid="uid://c80t1tpjb1em1" path="res://scripts/main_menu.gd" id="1_eiy7p"]
-[ext_resource type="Texture2D" uid="uid://clayj6urhvta1" path="res://sprites/Titulo.png" id="2_h7a2f"]
-[ext_resource type="Texture2D" uid="uid://bae4x6eepqut6" path="res://sprites/Plano_Fundo.png" id="3_h7a2f"]
-[ext_resource type="AudioStream" uid="uid://ce2nmvoyx5510" path="res://sounds/pirate_ship_in_game.ogg" id="4_qoqlk"]
+[ext_resource type="Texture2D" uid="uid://dyxgm3h17au30" path="res://sprites/Titulo.png" id="2_h7a2f"]
+[ext_resource type="Texture2D" uid="uid://cpha0dq7a6rfk" path="res://sprites/Plano_Fundo.png" id="3_h7a2f"]
+[ext_resource type="AudioStream" uid="uid://bedlqw6maf06q" path="res://sounds/pirate_ship_in_game.ogg" id="4_qoqlk"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3

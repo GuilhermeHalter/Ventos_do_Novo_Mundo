@@ -1,26 +1,26 @@
 [gd_scene load_steps=2 format=3 uid="uid://bocb4htpv3vau"]
 
-[ext_resource type="Texture2D" uid="uid://cguk8r713kpla" path="res://sprites/ilhas_Teste.png" id="1_nbwwy"]
+[ext_resource type="Texture2D" uid="uid://cyswct57tfw58" path="res://sprites/ilhas_Teste.png" id="1_nbwwy"]
 
 [node name="Continentes" type="Node2D"]
 
 [node name="Portugal" type="Node2D" parent="."]
-position = Vector2(10534, -6384)
+position = Vector2(9489, -755)
 
 [node name="Sprite2D" type="Sprite2D" parent="Portugal"]
-position = Vector2(320, -658)
-scale = Vector2(8.60734, 7.48321)
+position = Vector2(413, -544)
+scale = Vector2(4.93992, 4.42818)
 texture = ExtResource("1_nbwwy")
 
 [node name="Marker2D" type="Marker2D" parent="Portugal"]
 position = Vector2(-20, 48)
 
 [node name="Americas" type="Node2D" parent="."]
-position = Vector2(-7118, 4844)
+position = Vector2(-3960, 4527)
 
 [node name="Sprite2D" type="Sprite2D" parent="Americas"]
-position = Vector2(-300, -396)
-scale = Vector2(8.71907, 8.27259)
+position = Vector2(457, -85.9999)
+scale = Vector2(5.39078, 4.999)
 texture = ExtResource("1_nbwwy")
 
 [node name="Marker2D" type="Marker2D" parent="Americas"]

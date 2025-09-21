@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@export var speed := 900.0
+@export var speed := 100.0
 
 func _ready():
 	# Encontra o Marker2D do porto de Portugal

@@ -24,12 +24,34 @@
 Baixe a versão mais recente do jogo no repositório oficial do GitHub: <br>
 https://github.com/GuilhermeHalter/Ventos_do_Novo_Mundo
 
-Extraia o arquivo compactado para uma pasta de sua preferência.
+### 1) Usando GitBash <br>
+- Abra o Git Bash no seu computador.<br>
+- Escolha uma pasta onde deseja salvar o jogo.<br>
+- Execute o comando:<br>
+```bash
+  git clone https://github.com/GuilhermeHalter/Ventos_do_Novo_Mundo.git
+```
+	
+ - Abra a pasta clonada e localize o arquivo project.godot
 
-Instale a Godot Engine 4.x. <br>
-Abra o editor Godot.<br>
-Clique em Importar Projeto e selecione a Pasta `Ventos_Novo_Mundo`<br>
-Clique em Rodar Projeto (F5) para iniciar o jogo.
+
+### 2) Baixando o ZIP do repositório
+- Clique no botão verde Code e depois em Download ZIP.
+- Extraia o arquivo ZIP em uma pasta de sua preferência.
+- Abra a pasta extraída e localize o arquivo project.godot.
+
+### Importando para o GODOT
+- Abra o GODOT
+- Na tela inicial do Godot, clique em Importar.
+- Localize o projeto
+	- Clique em Browse (ou Procurar).
+ 	- Vá até a pasta onde você baixou/extraiu o jogo.
+    - Selecione a pasta `Ventos_do_Novo_Mundo`
+- Clique em Abrir.
+- Depois, clique em Importar & Editar.
+- O Godot vai carregar o projeto e abrir o editor.
+- Pressione F5 ou clique no botão Rodar Projeto no topo da tela.
+- O jogo será iniciado dentro do Godot.
 
 ## Controles
 **Movimento do Navio**

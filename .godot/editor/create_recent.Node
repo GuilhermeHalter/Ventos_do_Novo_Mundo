@@ -1,9 +1,9 @@
+TextureRect
 ProgressBar
 TextureProgressBar
 CanvasLayer
 Button
 VBoxContainer
-TextureRect
 Control
 Panel
 CollisionPolygon2D

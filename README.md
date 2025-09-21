@@ -46,7 +46,7 @@ https://github.com/GuilhermeHalter/Ventos_do_Novo_Mundo
 - Localize o projeto
 	- Clique em Browse (ou Procurar).
  	- Vá até a pasta onde você baixou/extraiu o jogo.
-    - Selecione a pasta `Ventos_do_Novo_Mundo`
+	- Selecione a pasta `Ventos_do_Novo_Mundo`
 - Clique em Abrir.
 - Depois, clique em Importar & Editar.
 - O Godot vai carregar o projeto e abrir o editor.

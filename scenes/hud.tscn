@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=3 uid="uid://b1iu32eqtnfv7"]
+
+[ext_resource type="Script" uid="uid://yd4jixvctseq" path="res://scripts/hud.gd" id="1_ahhtf"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ahhtf"]
+bg_color = Color(0.87451, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oo0fn"]
+bg_color = Color(1, 0.337255, 0, 0.894118)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5ysmq"]
+bg_color = Color(0, 0, 0.811765, 0.835294)
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_ahhtf")
+
+[node name="HealthBar" type="ProgressBar" parent="."]
+offset_left = 10.0
+offset_top = 12.0
+offset_right = 277.0
+offset_bottom = 39.0
+theme_override_styles/background = SubResource("StyleBoxFlat_ahhtf")
+
+[node name="HungerBar" type="ProgressBar" parent="."]
+offset_left = 10.0
+offset_top = 43.0
+offset_right = 277.0
+offset_bottom = 70.0
+theme_override_styles/background = SubResource("StyleBoxFlat_oo0fn")
+
+[node name="ThirstBar" type="ProgressBar" parent="."]
+offset_left = 10.0
+offset_top = 75.0
+offset_right = 277.0
+offset_bottom = 102.0
+theme_override_styles/background = SubResource("StyleBoxFlat_5ysmq")

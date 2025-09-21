@@ -12,23 +12,23 @@
 **Software**
 
 - Sistema Operacional: Windows 7 ou superior / Linux Ubuntu 18+ / macOS
-- Dependências:
-		- Biblioteca SDL (gerenciamento de entrada/saída)
-		- JSON (estruturação de dados e eventos)
+- Dependências: <br>
+		- Biblioteca SDL (gerenciamento de entrada/saída)<br>
+		- JSON (estruturação de dados e eventos)<br>
 		- Framework de persistência simples para salvar/carregar progresso
-- Engine
+- Engine <br>
 		-Desenvolvido na Godot Engine (versão 4.x) com linguagem GDScript
 
 ## Instruções de execução
 
-Baixe a versão mais recente do jogo no repositório oficial do GitHub:
-	```https://github.com/GuilhermeHalter/Ventos_do_Novo_Mundo```bash
+Baixe a versão mais recente do jogo no repositório oficial do GitHub: <br>
+https://github.com/GuilhermeHalter/Ventos_do_Novo_Mundo
 
 Extraia o arquivo compactado para uma pasta de sua preferência.
 
-Instale a Godot Engine 4.x.
-Abra o editor Godot.
-Clique em Importar Projeto e selecione a Pasta `Ventos_Novo_Mundo`
+Instale a Godot Engine 4.x. <br>
+Abra o editor Godot.<br>
+Clique em Importar Projeto e selecione a Pasta `Ventos_Novo_Mundo`<br>
 Clique em Rodar Projeto (F5) para iniciar o jogo.
 
 ## Controles

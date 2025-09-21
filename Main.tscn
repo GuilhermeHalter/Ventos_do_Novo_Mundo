@@ -50,6 +50,7 @@ position = Vector2(4009, 7429)
 shape = SubResource("RectangleShape2D_uu6xs")
 
 [node name="PauseMenu" type="CanvasLayer" parent="."]
+layer = 2
 visible = false
 
 [node name="Panel" type="Panel" parent="PauseMenu"]

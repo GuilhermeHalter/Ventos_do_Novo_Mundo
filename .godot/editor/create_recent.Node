@@ -1,6 +1,8 @@
 Button
-Panel
+VBoxContainer
+TextureRect
 Control
+Panel
 CanvasLayer
 CollisionPolygon2D
 StaticBody2D
@@ -10,5 +12,3 @@ Marker2D
 Node2D
 Node
 Sprite2D
-ColorRect
-AudioStreamPlayer2D

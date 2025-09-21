@@ -4,3 +4,7 @@ res://MainMenu.tscn
 res://scenes/Cutscene.tscn
 res://scenes/Porto_Portugal.tscn
 res://scenes/Continentes.tscn
+res://main.gd
+res://scripts/end_game.gd
+res://scenes/end_game.tscn
+res://scripts/ship.gd

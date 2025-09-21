@@ -1,0 +1,45 @@
+[gd_scene load_steps=3 format=3 uid="uid://bshuqt26fa16d"]
+
+[ext_resource type="Script" uid="uid://qwjeq3c81770" path="res://scripts/end_game.gd" id="1_uwdrl"]
+[ext_resource type="Texture2D" uid="uid://dp6tgbmn2y6dm" path="res://sprites/EndGame_Image.png" id="2_0py74"]
+
+[node name="EndGame" type="Control"]
+layout_mode = 3
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_uwdrl")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1148.0
+offset_bottom = 647.0
+texture = ExtResource("2_0py74")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -33.0
+offset_right = 38.0
+offset_bottom = 33.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Reiniciar" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Reiniciar"
+
+[node name="Sair" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Sair"
+
+[connection signal="pressed" from="VBoxContainer/Reiniciar" to="." method="_on_reiniciar_pressed"]
+[connection signal="pressed" from="VBoxContainer/Sair" to="." method="_on_sair_pressed"]

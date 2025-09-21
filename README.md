@@ -68,5 +68,5 @@ Esc → Pausar o jogo / Abrir menu
 
 O objetivo principal do Ventos do Novo Mundo é completar as rotas de navegação do país escolhido, superando os desafios durante a jornada.
 
-O jogo é finalizado quando o jogador conclui todas as rotas de navegação atribuídas ao seu país (Portugal, Espanha, Inglaterra ou França).
-Ao chegar ao último porto da rota, é exibida uma tela de conclusão
+O jogo é finalizado quando o jogador segue a bússola até o local de destino de cada rota de navegação atribuída ao seu país (Portugal, Espanha, Inglaterra ou França).
+Ao chegar ao último porto da rota, é exibida uma tela de conclusão.

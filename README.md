@@ -1,10 +1,7 @@
 # Ventos_do_Novo_Mundo
 
 ## Equipe
-Guilherme Halter Nunes
-João Vitor Bagatoli
-Maria Eduarda Huida
-Wedley Silva Schmoeller
+Guilherme Halter Nunes, João Vitor Bagatoli, Maria Eduarda Huida, Wedley Silva Schmoeller
 
 ## Requisitos Mínimos
 **Hardware**

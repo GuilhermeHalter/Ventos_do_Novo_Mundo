@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bshuqt26fa16d"]
 
 [ext_resource type="Script" uid="uid://qwjeq3c81770" path="res://scripts/end_game.gd" id="1_uwdrl"]
-[ext_resource type="Texture2D" uid="uid://dp6tgbmn2y6dm" path="res://sprites/EndGame_Image.png" id="2_0py74"]
+[ext_resource type="Texture2D" uid="uid://ruow4uctvixs" path="res://sprites/EndGame_Image.png" id="2_0py74"]
 
 [node name="EndGame" type="Control"]
 layout_mode = 3

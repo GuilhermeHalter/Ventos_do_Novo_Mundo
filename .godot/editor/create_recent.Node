@@ -1,3 +1,6 @@
+CollisionPolygon2D
+StaticBody2D
+CollisionShape2D
 TextureRect
 ProgressBar
 TextureProgressBar
@@ -6,9 +9,6 @@ Button
 VBoxContainer
 Control
 Panel
-CollisionPolygon2D
-StaticBody2D
-CollisionShape2D
 Camera2D
 Marker2D
 Node2D

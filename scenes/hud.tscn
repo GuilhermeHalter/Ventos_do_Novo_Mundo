@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://b1iu32eqtnfv7"]
 
 [ext_resource type="Script" uid="uid://yd4jixvctseq" path="res://scripts/hud.gd" id="1_ahhtf"]
-[ext_resource type="Texture2D" uid="uid://bjytmddtia65q" path="res://sprites/bussola.png" id="2_oo0fn"]
+[ext_resource type="Texture2D" uid="uid://doeb4hl48di3b" path="res://sprites/bussola.png" id="2_oo0fn"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ahhtf"]
 bg_color = Color(0.87451, 0, 0, 1)

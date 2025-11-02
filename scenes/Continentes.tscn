@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://bocb4htpv3vau"]
+[gd_scene load_steps=3 format=3 uid="uid://bocb4htpv3vau"]
 
-[ext_resource type="Texture2D" uid="uid://cyswct57tfw58" path="res://sprites/ilhas_Teste.png" id="1_nbwwy"]
+[ext_resource type="Texture2D" uid="uid://cuikxiuoxnnfb" path="res://sprites/ilha_portugal.png" id="1_tddpm"]
+[ext_resource type="Texture2D" uid="uid://bfawaolbfe6l0" path="res://sprites/ilha_america-removebg-preview.png" id="2_lkruv"]
 
 [node name="Continentes" type="Node2D"]
 
@@ -8,20 +9,33 @@
 position = Vector2(9489, -755)
 
 [node name="Sprite2D" type="Sprite2D" parent="Portugal"]
-position = Vector2(413, -544)
-scale = Vector2(4.93992, 4.42818)
-texture = ExtResource("1_nbwwy")
+position = Vector2(243, -221)
+scale = Vector2(0.64163, 0.604764)
+texture = ExtResource("1_tddpm")
 
 [node name="Marker2D" type="Marker2D" parent="Portugal"]
 position = Vector2(-20, 48)
 
+[node name="StaticBody2DPortugal" type="StaticBody2D" parent="Portugal"]
+
+[node name="CollisionPolygon2DPortugal" type="CollisionPolygon2D" parent="Portugal/StaticBody2DPortugal"]
+polygon = PackedVector2Array(24, -18, 38, 23, 84, 50, 127, 47, 180, 74, 419, 77, 466, 38, 546, 7, 557, -34, 551, -433, 531, -448, 494, -450, 454, -496, 262, -480, 253, -462, 149, -462, 108, -494, 50, -460, 30, -421, -71, -415, -71, -230, -33, -197, -23, -156, 18, -139, 20, -109, -42, -110, -54, -137, -74, -125, -76, -12)
+
 [node name="Americas" type="Node2D" parent="."]
-position = Vector2(-3960, 4527)
+position = Vector2(-4707, 4579)
 
 [node name="Sprite2D" type="Sprite2D" parent="Americas"]
-position = Vector2(457, -85.9999)
-scale = Vector2(5.39078, 4.999)
-texture = ExtResource("1_nbwwy")
+position = Vector2(1275, 35)
+scale = Vector2(1.49769, 1.27875)
+texture = ExtResource("2_lkruv")
 
 [node name="Marker2D" type="Marker2D" parent="Americas"]
 position = Vector2(1607, 332)
+
+[node name="Marker2D2" type="Marker2D" parent="Americas"]
+position = Vector2(982, 310)
+
+[node name="StaticBody2DAmericas" type="StaticBody2D" parent="Americas"]
+
+[node name="CollisionPolygon2DAmericas" type="CollisionPolygon2D" parent="Americas/StaticBody2DAmericas"]
+polygon = PackedVector2Array(1047, 273, 1079, 316, 1252, 355, 1461, 347, 1644, 248, 1625, -175, 1572, -206, 1539, -206, 1498, -238, 1291, -243, 1266, -219, 1152, -219, 1108, -228, 1054, -206, 1032, -180, 950, -178, 914, -140, 916, 34, 959, 66, 965, 119, 1001, 154, 1017, 179, 940, 177, 933, 264)

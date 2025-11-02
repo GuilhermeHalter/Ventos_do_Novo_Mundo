@@ -1,12 +1,9 @@
 res://Main.tscn
-res://README.md
-res://scenes/hud.tscn
-res://scripts/hud.gd
 res://scenes/Ship.tscn
 res://MainMenu.tscn
 res://scenes/Cutscene.tscn
 res://scenes/Porto_Portugal.tscn
 res://scenes/Continentes.tscn
 res://scenes/end_game.tscn
+res://scenes/hud.tscn
 res://scripts/ship.gd
-res://scripts/main_menu.gd

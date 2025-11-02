@@ -32,9 +32,6 @@ texture = ExtResource("2_lkruv")
 [node name="Marker2D" type="Marker2D" parent="Americas"]
 position = Vector2(1607, 332)
 
-[node name="Marker2D2" type="Marker2D" parent="Americas"]
-position = Vector2(982, 310)
-
 [node name="StaticBody2DAmericas" type="StaticBody2D" parent="Americas"]
 
 [node name="CollisionPolygon2DAmericas" type="CollisionPolygon2D" parent="Americas/StaticBody2DAmericas"]

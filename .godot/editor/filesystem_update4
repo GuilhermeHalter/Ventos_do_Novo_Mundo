@@ -7,3 +7,8 @@ res://scenes/Continentes.tscn
 res://scenes/end_game.tscn
 res://scenes/hud.tscn
 res://scripts/ship.gd
+res://scenes/enemy_boat.tscn
+res://scripts/enemy_boat.gd
+res://scripts/bullet.gd
+res://scenes/bullet.tscn
+res://scripts/cutscene.gd

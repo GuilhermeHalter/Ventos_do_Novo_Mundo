@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://dwrjemafk22df"]
+
+[ext_resource type="Script" uid="uid://dolx76g4bi1kx" path="res://scripts/enemy_boat.gd" id="1_555x1"]
+[ext_resource type="Texture2D" uid="uid://oj356fpgqie4" path="res://sprites/Barco_Direita-removebg-preview.png" id="1_momqg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_555x1"]
+size = Vector2(94, 40)
+
+[node name="EnemyBoat" type="Node2D"]
+script = ExtResource("1_555x1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(7.00001, -11)
+scale = Vector2(0.394515, 0.406404)
+texture = ExtResource("1_momqg")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(6, 10)
+shape = SubResource("RectangleShape2D_555x1")

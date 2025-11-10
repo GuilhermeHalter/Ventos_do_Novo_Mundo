@@ -1,7 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://b1iu32eqtnfv7"]
+[gd_scene load_steps=9 format=3 uid="uid://b1iu32eqtnfv7"]
 
 [ext_resource type="Script" uid="uid://yd4jixvctseq" path="res://scripts/hud.gd" id="1_ahhtf"]
-[ext_resource type="Texture2D" uid="uid://doeb4hl48di3b" path="res://sprites/bussola.png" id="2_oo0fn"]
+[ext_resource type="Texture2D" uid="uid://bn8igs67dpq3p" path="res://sprites/bussola.png" id="2_oo0fn"]
+[ext_resource type="Texture2D" uid="uid://dkqpe2mqpbbai" path="res://sprites/heart.png" id="2_uo2fv"]
+[ext_resource type="Texture2D" uid="uid://cka7xlim0m5lj" path="res://sprites/pernadefrango.png" id="3_047uy"]
+[ext_resource type="Texture2D" uid="uid://baqt2jrkho5nu" path="res://sprites/agua.png" id="4_5pdws"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ahhtf"]
 bg_color = Color(0.87451, 0, 0, 1)
@@ -22,6 +25,11 @@ offset_right = 277.0
 offset_bottom = 39.0
 theme_override_styles/background = SubResource("StyleBoxFlat_ahhtf")
 
+[node name="Sprite2D" type="Sprite2D" parent="HealthBar"]
+position = Vector2(284, 12)
+scale = Vector2(0.055954404, 0.057749152)
+texture = ExtResource("2_uo2fv")
+
 [node name="HungerBar" type="ProgressBar" parent="."]
 offset_left = 10.0
 offset_top = 43.0
@@ -29,12 +37,22 @@ offset_right = 277.0
 offset_bottom = 70.0
 theme_override_styles/background = SubResource("StyleBoxFlat_oo0fn")
 
+[node name="Sprite2D" type="Sprite2D" parent="HungerBar"]
+position = Vector2(283.00003, 14)
+scale = Vector2(0.021289058, 0.020703128)
+texture = ExtResource("3_047uy")
+
 [node name="ThirstBar" type="ProgressBar" parent="."]
 offset_left = 10.0
 offset_top = 75.0
 offset_right = 277.0
 offset_bottom = 102.0
 theme_override_styles/background = SubResource("StyleBoxFlat_5ysmq")
+
+[node name="Sprite2D" type="Sprite2D" parent="ThirstBar"]
+position = Vector2(281.00003, 14)
+scale = Vector2(0.04029605, 0.042763207)
+texture = ExtResource("4_5pdws")
 
 [node name="Compass" type="TextureRect" parent="."]
 offset_left = 554.0
